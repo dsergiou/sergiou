@@ -1,0 +1,147 @@
+body{
+  background-image:url("old1.jpg");
+  background-size: cover;
+}
+
+.ikona{
+  width: 260px;
+  left: 150px;
+
+}
+#main-picture{
+  width: 260px;
+  float:left;
+}
+#main-info{
+  position :relative;
+
+  top:0%;
+  overflow: hidden;
+}
+#info{
+  display: flex;
+height: 100px;
+}
+#mail,#phone,#log,#facebook{
+  position:relative;
+  width: 2%;
+  right: 0%;
+}
+#phone{
+  left: 25%;
+}
+#log{
+  left: 50%;
+}
+#facebook{
+  left: 75%;
+}
+.proto{
+  left: 90px;
+  top: -190px;
+  text-decoration-style: wavy;
+  text-decoration-line: underline;
+}
+.proto1{
+  left: 45px;
+  top: -190px;
+  text-decoration-style: wavy;
+  text-decoration-line: underline;
+}
+#educ{
+  left: 340px;
+  bottom: 440px;
+  text-decoration-style: wavy;
+  text-decoration-line: underline;
+}
+#list1{
+  border-top: 6px solid red;
+  background-color: #9C9B93;
+  left: 85px;
+  bottom: 190px;
+  font-size: 25px;
+  margin: 10px;
+}
+#list2{
+  border-top: 6px solid red;
+  background-color: #9C9B93;
+
+  left: 330px;
+  bottom: 490px;
+  font-size: 25px;
+  margin: 10px;
+}
+#list3{
+  border-top: 6px solid red;
+  background-color: #9C9B93;
+
+  left: 330px;
+  bottom: 390px;
+  font-size: 25px;
+  margin: 10px;
+}
+#language{
+
+  right:380px;
+  top: -150px;
+  font-size: 25px;
+
+}
+.checked {
+  color: orange;
+}
+
+.vl {
+
+  border-left: 3px solid BLACK;
+  list-style: circle;
+
+  left: -50px;
+  height: 850px;
+  bottom: 1300px;
+}
+#icons{
+  display: flex;
+  height: 100px;
+}
+.hobbies-paragraph{
+  border-top: 6px solid red;
+  background-color: #9C9B93;
+}
+.hobby1,.hobby2,.hobby3.hobby4{
+  position:relative;
+  width: 6%;
+}
+.hobby2{
+  left: 1%;
+}
+.hobby3{
+  left: 50%;
+}
+.hobby4{
+  left: 75%;
+}
+#paragraph{
+  text-decoration-style: wavy;
+  text-decoration-line: underline;
+}
+.hobby{
+
+  left: -280px;
+  height: 400px;
+  top: -1288px;
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+.kouti{
+  position: absolute;
+	bottom: 3180px;
+	left: -385px;
+	width: 1500px;
+	height: 150px;
+  background: #BD3939 url(../images/cover.jpg) repeat center center;
+  box-shadow:
+    -1px -1px 3px rgba(0,0,0,0.2),
+    12px 12px 20px rgba(0,0,0,0.6),
+    inset 2px 2px 0 rgba(255, 255, 255, 0.1);
+}
